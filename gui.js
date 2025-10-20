@@ -261,7 +261,7 @@ function init() {
         countriesList.forEach(country => {
             let option = document.createElement('option');
             option.textContent = country.name.common;
-            option.value = country.cioc;
+            option.value = country.name.common;
             selectCountry.appendChild(option);
         });
 
